@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>TabbyBlog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="TabbyBlog"><meta name="msapplication-TileImage" content="https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKHmCmvs59cf8eXbzMSqxfwJBpicGve2fJp7RYrMPiauZOl2icc8NbZ9y35yPIAbtOPPWw3T0DCQIwA/132"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="TabbyBlog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Vue3UI库&amp;#x2F;相关工具&amp;#x2F;可视化&amp;#x2F;生态全分享 技术胖整理分享 Web UI库 ElementUI Plus一套为开发者、设计师和产品经理准备的基于 Vue 3.0 的桌面端组件库 https:&amp;#x2F;&amp;#x2F;element-plus.org&amp;#x2F;zh-CN&amp;#x2F;  Ant Design of VueAnt Design 的 Vue 实现，开发和服务于企业级后台产品 https:&amp;#x2F;&amp;#x2F;www.antdv.com&amp;#x2F;docs"><meta property="og:type" content="blog"><meta property="og:title" content="TabbyBlog"><meta property="og:url" content="https://tabbycute.github.io/"><meta property="og:site_name" content="TabbyBlog"><meta property="og:description" content="Vue3UI库&amp;#x2F;相关工具&amp;#x2F;可视化&amp;#x2F;生态全分享 技术胖整理分享 Web UI库 ElementUI Plus一套为开发者、设计师和产品经理准备的基于 Vue 3.0 的桌面端组件库 https:&amp;#x2F;&amp;#x2F;element-plus.org&amp;#x2F;zh-CN&amp;#x2F;  Ant Design of VueAnt Design 的 Vue 实现，开发和服务于企业级后台产品 https:&amp;#x2F;&amp;#x2F;www.antdv.com&amp;#x2F;docs"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKHmCmvs59cf8eXbzMSqxfwJBpicGve2fJp7RYrMPiauZOl2icc8NbZ9y35yPIAbtOPPWw3T0DCQIwA/132"><meta property="article:published_time" content="2022-11-07T14:29:47.057Z"><meta property="article:modified_time" content="2022-11-07T14:29:47.057Z"><meta property="article:author" content="removeif"><meta property="article:tag" content="golang，go，web前端，前端，vue，nuxt"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKHmCmvs59cf8eXbzMSqxfwJBpicGve2fJp7RYrMPiauZOl2icc8NbZ9y35yPIAbtOPPWw3T0DCQIwA/132"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://tabbycute.github.io/assets/%E8%B5%84%E6%96%99/vue3.html"},"headline":"TabbyBlog","image":["https://tabbycute.github.io/img/og_image.png"],"datePublished":"2022-11-07T14:29:47.057Z","dateModified":"2022-11-07T14:29:47.057Z","author":{"@type":"Person","name":"TabbyBlog"},"description":"Vue3UI库&#x2F;相关工具&#x2F;可视化&#x2F;生态全分享 技术胖整理分享 Web UI库 ElementUI Plus一套为开发者、设计师和产品经理准备的基于 Vue 3.0 的桌面端组件库 https:&#x2F;&#x2F;element-plus.org&#x2F;zh-CN&#x2F;  Ant Design of VueAnt Design 的 Vue 实现，开发和服务于企业级后台产品 https:&#x2F;&#x2F;www.antdv.com&#x2F;docs"}</script><link rel="canonical" href="https://tabbycute.github.io/assets/%E8%B5%84%E6%96%99/vue3.html"><link rel="icon" href="https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKHmCmvs59cf8eXbzMSqxfwJBpicGve2fJp7RYrMPiauZOl2icc8NbZ9y35yPIAbtOPPWw3T0DCQIwA/132"><meta name="referrer" content="no-referrer-when-downgrade"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.12.0/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.12.0/css/all.min.css"><link rel="stylesheet" href="https://fonts.loli.net/css?family=Ubuntu:400,600|Source+Code+Pro|Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Microsoft YaHei:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&amp;amp;subset=latin,latin-ext|Inconsolata|Itim|Lobster.css"><script src="https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="/js/globalUtils.js"></script><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/justifiedGallery/3.7.0/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdnjs.loli.net/ajax/libs/pace/1.0.2/pace.min.js"></script><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="TabbyBlog" type="application/atom+xml">
+</head><body class="is-3-column has-navbar-fixed-top"><nav class="navbar navbar-main is-fixed-top"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKHmCmvs59cf8eXbzMSqxfwJBpicGve2fJp7RYrMPiauZOl2icc8NbZ9y35yPIAbtOPPWw3T0DCQIwA/132" alt="TabbyBlog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/home">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a></div><div class="navbar-end"><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a><a class="navbar-item" id="night-nav" title="Night Mode" href="javascript:;"><i class="fas fa-moon" id="night-icon"></i></a></div></div></div></nav><script type="text/javascript" src="/js/theme-setting.js"></script><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main"><!--!--><div class="card"><article class="card-content article" role="article"><h1 class="title is-3 is-size-4-mobile"> </h1><div class="content"><p>Vue3<br>UI库/相关工具/可视化/生态全分享 技术胖整理分享</p>
+<h2 id="Web-UI库"><a href="#Web-UI库" class="headerlink" title="Web UI库"></a>Web UI库</h2><ol>
+<li><p>ElementUI Plus<br>一套为开发者、设计师和产品经理准备的基于 Vue 3.0 的桌面端组件库 <a target="_blank" rel="noopener" href="https://element-plus.org/zh-CN/">https://element-plus.org/zh-CN/</a></p>
+</li>
+<li><p>Ant Design of Vue<br>Ant Design 的 Vue 实现，开发和服务于企业级后台产品 <a target="_blank" rel="noopener" href="https://www.antdv.com/docs/vue/introduce-cn">https://www.antdv.com/docs/vue/introduce-cn</a></p>
+</li>
+<li><p>BalmUI<br>基于谷歌的 Material Design，附带 Vue 插件和指令，以及从简单到复杂的高度可定制组件 <a target="_blank" rel="noopener" href="https://next-material.balmjs.com/">https://next-material.balmjs.com/</a></p>
+</li>
+<li><p>Naive UI<br>图森Vue3的组件库，文档完整，我项目中经常使用 <a target="_blank" rel="noopener" href="https://www.naiveui.com/zh-CN/os-theme">https://www.naiveui.com/zh-CN/os-theme</a></p>
+</li>
+<li><p>arco.design<br>字节跳动企业级产品设计系统，支持React和Vue双版本 <a target="_blank" rel="noopener" href="https://arco.design/">https://arco.design/</a></p>
+</li>
+</ol>
+<p>6, Quasar<br>轻松构建高性能和高质量的Vue.js 3用户界面，好用，但没有中文文档 <a target="_blank" rel="noopener" href="https://quasar.dev/">https://quasar.dev/</a></p>
+<ol start="7">
+<li><p>iDUX<br>Vue3.x 的 UI 组件库，完全使用 TypeScript 开发 <a target="_blank" rel="noopener" href="https://idux.site/">https://idux.site/</a></p>
+</li>
+<li><p>TDesign<br>腾讯业务团队在服务业务过程中沉淀的一套企业级设计体系 <a target="_blank" rel="noopener" href="https://tdesign.tencent.com/">https://tdesign.tencent.com/</a> <a target="_blank" rel="noopener" href="https://tdesign.tencent.com/vue-next/overview">https://tdesign.tencent.com/vue-next/overview</a></p>
+</li>
+<li><p>PrimeVue<br>易于使用、多功能、高性能的 Vue UI 组件库 <a target="_blank" rel="noopener" href="https://www.primefaces.org/primevue/">https://www.primefaces.org/primevue/</a></p>
+</li>
+<li><p>DevUI<br>华为基于 Vue3 和 DevUI 设计的 UI 组件 <a target="_blank" rel="noopener" href="https://vue-devui.github.io/">https://vue-devui.github.io/</a></p>
+</li>
+<li><p>vuestic-ui<br>Vue 3 的免费和开源 UI 库 ,UI非常好看，并且有可用后台管理界面。 <a target="_blank" rel="noopener" href="https://vuestic.dev/">https://vuestic.dev/</a></p>
+</li>
+<li><p>Headless UI<br>完全无样式、完全可访问的 UI 组件，旨在与 Tailwind CSS 完美集成。 <a target="_blank" rel="noopener" href="https://headlessui.com/">https://headlessui.com/</a></p>
+</li>
+<li><p>View UI Plus<br>基于 Vue.js 3 的企业级 UI 组件库和前端解决方案 <a target="_blank" rel="noopener" href="https://www.iviewui.com/">https://www.iviewui.com/</a></p>
+</li>
+</ol>
+<h2 id="移动UI库"><a href="#移动UI库" class="headerlink" title="移动UI库"></a>移动UI库</h2><ol start="14">
+<li><p>Vant<br>有赞轻量、可靠的移动端组件库 <a target="_blank" rel="noopener" href="https://vant-contrib.gitee.io/vant/#/zh-CN">https://vant-contrib.gitee.io/vant/#/zh-CN</a></p>
+</li>
+<li><p>NutUI<br>京东风格的轻量级移动端 Vue 组件库，非常适合移动端电商使用。 <a target="_blank" rel="noopener" href="https://nutui.jd.com/#/">https://nutui.jd.com/#/</a></p>
+</li>
+<li><p>Varlet<br>Material 风格移动端组件库 ，文档非常齐全。 <a target="_blank" rel="noopener" href="https://varlet.gitee.io/varlet-ui/#/zh-CN/home">https://varlet.gitee.io/varlet-ui/#/zh-CN/home</a></p>
+</li>
+<li><p>nutui-bingo<br>京东基于 NutUI 的抽奖组件库，助力营销活动和小游戏场景。 <a target="_blank" rel="noopener" href="https://nutui.jd.com/bingo/#/">https://nutui.jd.com/bingo/#/</a></p>
+</li>
+</ol>
+<h2 id="相关工具"><a href="#相关工具" class="headerlink" title="相关工具"></a>相关工具</h2><ol start="18">
+<li><p>unplugin-vue-components<br>antfu 按需组件自动导入，开箱即用地支持 Vue 2 和 Vue 3，Tree-shakable，只注册你使用的组件，附有流行UI 库的内置解析器。 <a target="_blank" rel="noopener" href="https://www.npmjs.com/package/unplugin-vue-components">https://www.npmjs.com/package/unplugin-vue-components</a></p>
+</li>
+<li><p>vuex-persistedstate<br>在页面重新加载之间保持并重载您的 Vuex 状态 <a target="_blank" rel="noopener" href="https://github.com/robinvdvleuten/vuex-persistedstate">https://github.com/robinvdvleuten/vuex-persistedstate</a></p>
+</li>
+<li><p>vuex-persist<br>支持 Typescript 的Vuex插件，它能够将应用程序的状态保存到持久存储中，例如 Cookies 或 localStorage <a target="_blank" rel="noopener" href="https://championswimmer.in/vuex-persist/">https://championswimmer.in/vuex-persist/</a></p>
+</li>
+<li><p>@vueuse/gesture<br>手势库，使应用程序具有交互性 <a target="_blank" rel="noopener" href="https://gesture.vueuse.org/">https://gesture.vueuse.org/</a></p>
+</li>
+<li><p>unplugin-auto-import<br>antfu 自动导入 Vite、Webpack、Rollup 和 esbuild 的 API。支持 TypeScript。 <a target="_blank" rel="noopener" href="https://github.com/antfu/unplugin-auto-import">https://github.com/antfu/unplugin-auto-import</a></p>
+</li>
+<li><p>pinia-plugin-persistedstate<br>Pinia 商店的可配置持久性 <a target="_blank" rel="noopener" href="https://github.com/prazdevs/pinia-plugin-persistedstate">https://github.com/prazdevs/pinia-plugin-persistedstate</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://vue-termui.dev/">https://vue-termui.dev/</a><br>一个基于 Vue.js 的终端 UI 框架，可让您轻松构建现代终端应用程序 <a target="_blank" rel="noopener" href="https://vue-termui.dev/">https://vue-termui.dev/</a></p>
+</li>
+</ol>
+<h2 id="可视化"><a href="#可视化" class="headerlink" title="可视化"></a>可视化</h2><ol start="25">
+<li><p>Pdfvuer<br>DF 查看器，使用 Mozilla 的 PDF.js，支持 Vue2 和 Vue3 <a target="_blank" rel="noopener" href="https://arkokoley.github.io/pdfvuer/">https://arkokoley.github.io/pdfvuer/</a></p>
+</li>
+<li><p>vue3-marquee<br>无缝滚动组件 <a target="_blank" rel="noopener" href="https://vue3-marquee.vercel.app/">https://vue3-marquee.vercel.app/</a></p>
+</li>
+<li><p>Vue-ECharts<br>百度ECharts 的 Vue.js 组件。 配置参考Echarts官方 基于 ECharts v5+ 开发，适用于Vue.js 2/3。 <a target="_blank" rel="noopener" href="https://vue-echarts.dev/">https://vue-echarts.dev/</a></p>
+</li>
+<li><p>iconpark<br>字节跳动出品，将一个SVG图标转化为多个主题，并生成React图标，Vue图标，svg图标 <a target="_blank" rel="noopener" href="https://iconpark.oceanengine.com/home">https://iconpark.oceanengine.com/home</a></p>
+</li>
+</ol>
+<h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><ol start="29">
+<li><p>vue-multiselect-next<br>Vue.js 的通用选择/多选/标记组件 <a target="_blank" rel="noopener" href="https://vue-multiselect.js.org/">https://vue-multiselect.js.org/</a></p>
+</li>
+<li><p>vue-print-nb<br>用于印刷、简单、快速、方便、轻便的指令包装器 <a target="_blank" rel="noopener" href="https://github.com/Power-kxLee/vue-print-nb">https://github.com/Power-kxLee/vue-print-nb</a></p>
+</li>
+<li><p>vue-i18n-next<br>Vue3的国际化插件 <a target="_blank" rel="noopener" href="https://vue-i18n.intlify.dev/">https://vue-i18n.intlify.dev/</a></p>
+</li>
+<li><p>vue-cropper<br>简单的vue图片裁剪插件 <a target="_blank" rel="noopener" href="http://github.xyxiao.cn/vue-cropper/example/">http://github.xyxiao.cn/vue-cropper/example/</a></p>
+</li>
+<li><p>Vue Grid Layout<br>Vue.js 的网格布局系统 <a target="_blank" rel="noopener" href="https://jbaysolutions.github.io/">https://jbaysolutions.github.io/</a></p>
+</li>
+<li><p>Vue Qrcode Reader<br>允许在不离开浏览器的情况下检测和解码二维码 <a target="_blank" rel="noopener" href="https://gruhn.github.io/vue-qrcode-reader/">https://gruhn.github.io/vue-qrcode-reader/</a></p>
+</li>
+<li><p>Makeit Captcha<br>基于 Vue3 + Vite + Canvas 开发的滑块验证码，动态生成验证滑块，结合后端的二次校验，能有效的避免被抓取模拟验证<a target="_blank" rel="noopener" href="https://admin.makeit.vip/components/captcha">https://admin.makeit.vip/components/captcha</a></p>
+</li>
+<li><p>vue3-clipboard<br>Vue 3 的 clipboard.js <a target="_blank" rel="noopener" href="https://github.com/soerenmartius/vue3-clipboard">https://github.com/soerenmartius/vue3-clipboard</a></p>
+</li>
+<li><p>vue.draggable<br>基于Sortable.js的Vue 3拖放组件 <a target="_blank" rel="noopener" href="https://sortablejs.github.io/vue.draggable.next/#/simple">https://sortablejs.github.io/vue.draggable.next/#/simple</a></p>
+</li>
+<li><p>BetterScroll<br>解决移动端（已支持 PC）各种滚动场景需求的插件。 <a target="_blank" rel="noopener" href="https://better-scroll.github.io/docs/zh-CN/">https://better-scroll.github.io/docs/zh-CN/</a></p>
+</li>
+</ol>
+<h2 id="相关生态"><a href="#相关生态" class="headerlink" title="相关生态"></a>相关生态</h2><ol start="39">
+<li><p>Vue 插件库<br><a target="_blank" rel="noopener" href="https://www.vue365.cn/">https://www.vue365.cn/</a></p>
+</li>
+<li><p>Pinia<br>轻量级状态管理库，API 设计更接近Vuex 5的提案 <a target="_blank" rel="noopener" href="https://pinia.vuejs.org/">https://pinia.vuejs.org/</a></p>
+</li>
+<li><p>Nuxt Modules<br>Nuxt 发现我们的模块列表以增强您的Nuxt 项目 <a target="_blank" rel="noopener" href="https://modules.nuxtjs.org/">https://modules.nuxtjs.org/</a></p>
+</li>
+<li><p>Nuxt 3<br>轻量级应用框架,可用来创建服务端渲染 (SSR) 应用 <a target="_blank" rel="noopener" href="https://v3.nuxtjs.org/">https://v3.nuxtjs.org/</a></p>
+</li>
+<li><p>vuepress<br>Vue 驱动的静态网站生成器 <a target="_blank" rel="noopener" href="https://v2.vuepress.vuejs.org/zh/">https://v2.vuepress.vuejs.org/zh/</a></p>
+</li>
+<li><p>VueUse<br>强大的 Vue 组合实用程序集合 <a target="_blank" rel="noopener" href="https://vueuse.org/">https://vueuse.org/</a></p>
+</li>
+</ol>
+<h2 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h2><ol start="45">
+<li><p>vue-starport<br>带有动画的跨路由共享组件 <a target="_blank" rel="noopener" href="https://vue-starport.netlify.app/">https://vue-starport.netlify.app/</a></p>
+</li>
+<li><p>@vueuse/motion<br>Vue Composables 让你的组件动起来 <a target="_blank" rel="noopener" href="https://motion.vueuse.org/">https://motion.vueuse.org/</a></p>
+</li>
+</ol>
+<h2 id="音视频"><a href="#音视频" class="headerlink" title="音视频"></a>音视频</h2><ol start="47">
+<li>@vueuse/sound<br>用于播放音效的 Vue 组合 <a target="_blank" rel="noopener" href="https://sound.vueuse.org/">https://sound.vueuse.org/</a></li>
+</ol>
+</div><!--!--></article></div><!--!--><!--!--><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1 is-sticky"><!--!--><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKHmCmvs59cf8eXbzMSqxfwJBpicGve2fJp7RYrMPiauZOl2icc8NbZ9y35yPIAbtOPPWw3T0DCQIwA/132" alt="TabbyBlog"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">TabbyBlog</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>chengdu</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Posts</p><a href="/archives"><p class="title">32</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/categories"><p class="title">4</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/tags"><p class="title">23</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="/" target="_blank" rel="noopener">Follow</a></div></div></div><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">Links</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://github.com/TabbyCute" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">TabbyCute</span></span><span class="level-right"><span class="level-item tag">github.com</span></span></a></li></ul></div></div></div><!--!--><div class="card widget"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-10-24T16:00:00.000Z">2022-10-25</time></p><p class="title"><a href="/2022/10/25/20221025%E5%89%8D%E7%AB%AF%E6%8D%A2%E8%82%A4%E6%80%9D%E8%B7%AF/">前端换肤解决方案及其思路</a></p><p class="categories"><a href="/categories/web%E5%89%8D%E7%AB%AF/">web前端</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-10-04T16:00:00.000Z">2022-10-05</time></p><p class="title"><a href="/2022/10/05/20221005flutter%E9%9B%86%E6%88%90%E5%8D%8E%E4%B8%BA%E6%8E%A8%E9%80%81/">flutter极光推送集成华为(鸿蒙)厂商通道</a></p><p class="categories"><a href="/categories/flutter/">flutter</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-09-24T16:00:00.000Z">2022-09-25</time></p><p class="title"><a href="/2022/09/25/20220925etcd%E7%9A%84%E9%9B%86%E7%BE%A4%E6%90%AD%E5%BB%BA/">etcd集群的搭建</a></p><p class="categories"><a href="/categories/linux/">linux</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-09-17T16:00:00.000Z">2022-09-18</time></p><p class="title"><a href="/2022/09/18/20220918etcd%E5%8D%95%E8%8A%82%E7%82%B9%E5%AE%89%E8%A3%85%E5%92%8Cgolang%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/">etcd单节点安装和golang的简单使用</a></p><p class="categories"><a href="/categories/linux/">linux</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-06-09T16:00:00.000Z">2022-06-10</time></p><p class="title"><a href="/2022/06/10/20220610docker%E7%9A%84%E5%AE%89%E8%A3%85/">查看yum软件的安装目录</a></p><p class="categories"><a href="/categories/docker/">docker</a></p></div></article></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">Categories</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="/categories/docker/"><span class="level-start"><span class="level-item">docker</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/flutter/"><span class="level-start"><span class="level-item">flutter</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/linux/"><span class="level-start"><span class="level-item">linux</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/web%E5%89%8D%E7%AB%AF/"><span class="level-start"><span class="level-item">web前端</span></span><span class="level-end"><span class="level-item tag">24</span></span></a></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="/archives/2022/10/"><span class="level-start"><span class="level-item">October 2022</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile is-marginless" href="/archives/2022/09/"><span class="level-start"><span class="level-item">September 2022</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile is-marginless" href="/archives/2022/06/"><span class="level-start"><span class="level-item">June 2022</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/archives/2022/05/"><span class="level-start"><span class="level-item">May 2022</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile is-marginless" href="/archives/2022/04/"><span class="level-start"><span class="level-item">April 2022</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><a class="level is-mobile is-marginless" href="/archives/"><span class="level-start"><span class="level-item">查看全部&gt;&gt;</span></span></a></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">Tags</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/js/"><span class="tag">js</span><span class="tag is-grey-lightest">18</span></a></div><div class="control"><a class="tags has-addons" href="/tags/web%E5%89%8D%E7%AB%AF/"><span class="tag">web前端</span><span class="tag is-grey-lightest">12</span></a></div><div class="control"><a class="tags has-addons" href="/tags/flutter/"><span class="tag">flutter</span><span class="tag is-grey-lightest">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/linux/"><span class="tag">linux</span><span class="tag is-grey-lightest">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/vue/"><span class="tag">vue</span><span class="tag is-grey-lightest">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/im/"><span class="tag">im</span><span class="tag is-grey-lightest">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/cryptojs/"><span class="tag">cryptojs</span><span class="tag is-grey-lightest">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/etcd/"><span class="tag">etcd</span><span class="tag is-grey-lightest">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/golang/"><span class="tag">golang</span><span class="tag is-grey-lightest">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Face-Sign/"><span class="tag">Face Sign</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Google-Sign/"><span class="tag">Google Sign</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/docker/"><span class="tag">docker</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/exceljs/"><span class="tag">exceljs</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/gulp/"><span class="tag">gulp</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/hexo/"><span class="tag">hexo</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/http/"><span class="tag">http</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/nuxtjs/"><span class="tag">nuxtjs</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/pinia/"><span class="tag">pinia</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/sheetjs/"><span class="tag">sheetjs</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/uniapp/"><span class="tag">uniapp</span><span class="tag is-grey-lightest">1</span></a></div></div><div class="field is-grouped is-grouped-multiline"><a class="tags has-addons" href="/tags/"><span class="tag">查看全部&gt;&gt;</span></a></div></div></div></div><!--!--><div class="column-right-shadow is-hidden-widescreen"></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><p class="size-small" style="transform:translateY(-30px)"><br><span>©蜀ICP备2021012374号-1<br></span><span>© 版权说明：[如有侵权，请联系我130141963@qq.com，立即处理]<br /></span><span><span id="statistic-times">loading...</span><script>function createTime(time) {
+            var n = new Date(time);
+            now.setTime(now.getTime() + 250),
+                days = (now - n) / 1e3 / 60 / 60 / 24,
+                dnum = Math.floor(days),
+                hours = (now - n) / 1e3 / 60 / 60 - 24 * dnum,
+                hnum = Math.floor(hours),
+            1 == String(hnum).length && (hnum = "0" + hnum),
+                minutes = (now - n) / 1e3 / 60 - 1440 * dnum - 60 * hnum,
+                mnum = Math.floor(minutes),
+            1 == String(mnum).length && (mnum = "0" + mnum),
+                seconds = (now - n) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,
+                snum = Math.round(seconds),
+            1 == String(snum).length && (snum = "0" + snum),
+                document.getElementById("statistic-times").innerHTML = "❤️Site from <strong>"+time.split(" ")[0].replace(/\//g,".")+"</strong> has existed <strong>" + dnum + "</strong> d <strong>" + hnum + "</strong> h <strong>" + mnum + "</strong> m <strong>" + snum + "</strong> s！❤️";
+        }var now = new Date();setInterval("createTime('2019/12/05 00:00:00')", 250,"");</script><br></span><div class="size-small"><span>❤️Thx <strong><span id="busuanzi_value_site_uv">99+</span></strong> users <strong><span id="busuanzi_value_site_pv">99+</span></strong> visited！❤️</span></div></p></div><div class="level-end"><div class="sideMusic"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="/js/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script><meting-js style="width: auto;height: 2000px;" server="netease" type="playlist" id="2364053447" theme="#2980b9" loop="all" autoplay="false" order="list" storageName="aplayer-setting" lrctype="0" list-max-height="400px" fixed="true"></meting-js></div></div></div></div></footer><script src="https://cdnjs.loli.net/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script><script src="https://cdnjs.loli.net/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" async></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdnjs.loli.net/ajax/libs/lightgallery/1.6.8/js/lightgallery.min.js" defer></script><script src="https://cdnjs.loli.net/ajax/libs/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script><script type="text/javascript">var pjax = new Pjax({
+            elements: "a",//代表点击链接就更新
+            selectors: [  //代表要更新的节点
+                ".section",
+                "title"
+            ],
+            cache: true,
+            cacheBust:false
+        })
+
+        function loadBusuanzi(){
+        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js", function () {});
+        }
+
+        function loadMathJax() { //加载mathjax
+            $.getScript("//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML", function () {
+                MathJax.Hub.Config({ tex2jax: { inlineMath: [['$', '$'], ['\(', '\)']] } });
+                var math = document.getElementsByClassName("entry-content")[0];
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+            });
+        };
+
+        // 开始 PJAX 执行的函数
+        document.addEventListener('pjax:send', function () {
+        });
+        
+        // PJAX 完成之后执行的函数，可以和上面的重载放在一起
+        document.addEventListener('pjax:complete', function () {
+            $(".section").css({opacity:1});
+            if(false){
+                $.getScript('/js/comment-issue-data.js',function(){loadIssueData('undefined','undefined','undefined','undefined',undefined);});
+            }
+            if(false){
+                loadMathJax();
+            }
+            loadMainJs(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings);
+            loadBackTop();
+            loadBusuanzi();
+            if(typeof loadBanner == 'function'){
+                loadBanner();
+            }
+        });</script></body></html>
